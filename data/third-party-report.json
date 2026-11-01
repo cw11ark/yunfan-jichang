@@ -1,0 +1,36 @@
+{
+  "site_id": "yunfan",
+  "name": "云帆",
+  "image": "images/speedtests/yunfan.jpeg",
+  "attribution": "直接HTML的云帆段落与云帆alt；不可误用下一段星维的错误云帆alt图",
+  "test_time_as_printed": "2026-08-12 12:10:47 CST",
+  "test_date": "2026-08-12",
+  "report_type": "download_speed_and_latency",
+  "has_download_throughput": true,
+  "backend_as_read": "广东联通 @1Gbps",
+  "tool_as_read": "SpeedCentre+；未读取到版本号",
+  "threads": 6,
+  "traffic_used_gb": "17.27",
+  "duration_seconds": null,
+  "ping_count": null,
+  "table_rows": 74,
+  "metrics_present": [
+    "TLS RTT",
+    "HTTPS延迟",
+    "平均速度",
+    "最大速度",
+    "每秒速度图"
+  ],
+  "example": {
+    "node": "日本02|中转（第33行，后缀符号未识别）",
+    "tls_rtt_ms": 187,
+    "https_latency_ms": 999,
+    "average_speed_raw": "99.16MB",
+    "peak_speed_raw": "141.94MB"
+  },
+  "caveats": [
+    "图内同名节点有多种后缀；不能按名称直接去重或认为是同一线路多次采样。",
+    "原图速度单位MB未自行换算；不以单个峰值排名。",
+    "初次正文抽取缺失此图，已按直接HTML补齐。"
+  ]
+}
